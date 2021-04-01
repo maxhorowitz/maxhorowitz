@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Max Horowitz</title>
+        <link href="../css/style.css" rel="stylesheet" type="text/css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+    <body class="parallax">
+            
+        <div class="navbar">
+            <div class="dropdown">
+                <button class="dropbtn"><b>Portfolio</b></button>
+                <div class="dropdown-content">
+                    <a href="../html/turner.html">Turner Construction Intern</a>
+                    <a href="../html/longbeachRED.html">Real Estate Development Research</a>
+                    <a href="../html/realEstate.html">Real Estate Agent</a>
+                    <a href="../html/waterjetCutter.html">Waterjet Cutter</a>
+                    <a href="../html/cooper.html">Brake Dynamometer</a>
+                    <a href="../html/autobike.html">AutoBike</a>
+                    <a href="../html/cento.html">Cento Chick Peas Can</a>
+                    <a href="../html/threeDPrinter.html">3D Printer</a>
+                </div>
+            </div>
+            <div class="home">
+                <a href="../index.html" type="text/html"><b>Home</b></a>
+            </div>
+        </div>
+
+        <div class="heading">
+            <div class="longbeach">
+                <p><b>Long Beach Real Estate Development</b></p>
+                <img src="../images/LBhouse.png" alt="Long Beach, NY Real Estate Development Research">
+            </div>
+        </div>
+
+        <div class="info">
+            <h1>Overview</h1>
+            <p>During the spring and summer of 2020, I programmed a computer software that analyzes the profitability of real estate investments in Long Beach, New York. The computer program sources single-family property data for over 1,600 houses in Long Beach from Nassau County's Public Record website, <a href="https://lrv.nassaucountyny.gov">https://lrv.nassaucountyny.gov/</a>. By using this data effectively, real estate investors in single-family houses in Long Beach can make more informed decisions with regard to <i>flipping</i> these houses. The data is automatically updated with each time that the program is run.</p>
+            <h1>Why Long Beach?</h1>
+            <p>Long Beach sparked my interest its houses are within walking distance of the highly-desired long island beaches, and more importantly because many of these houses are similar models built by one developer during the early 1920s. Similarity between houses provides opportunity to compare between each as potential investment opportunities.</p>
+            <p><b><i>Impact of COVID-19: </i></b>In the height of the COVID-19 pandemic, there were massive migrations from urban areas to suburban and coastal areas because of the transition remote work and online school. This led to a surge in eastern long island beach town real estate markets because many New Yorkers no longer had to work in offices and had less reason to live in small apartments. I believe this surge in eastern long island beach towns can and should apply to Long Beach because it is closer in proximity to New York than say, the Hamptons, but it offers access to the same beaches.</p>
+            <h1>Software</h1>
+            <p>With every purchase of an original house developed in the 1920s, the software records the sale price and location. Further, with every purchase of a renovated or rebuilt house where an original house once was, the sales price and location are recorded. Additionally, for all houses the square footage, lot size, beds, baths, parking spaces, proximity to beach, presence of a pool, attic, and basement are all stored. This allows for neighborhood development analysis and can provide potential real estate investors with unique insight into the Long Beach real estate markets.</p>
+            <h1>Examples of Houses</h1>
+            <div class="grid-container-compareHouses">
+                <div class="gridItemOldHouse comparison">
+                    <p>Original Developed House</p>
+                    <img src="../images/oldhouse.png">
+                </div>
+                <div class="gridItemNewHouse comparison">
+                    <p>Rebuilt or Renovated House</p>
+                    <img src="../images/newhouse.png">
+                </div>
+            </div>
+            <h1>Determine Comparability of Houses</h1>
+            <p>The user inputs the address of a house with which they are considering an investment. This address must exist and be from one of the twenty-five streets that I have covered in this software. The program then updates and stores information about all other houses' sales histories and their characteristics at the time of each sale (including square footage, lot size, beds, baths, etc.). When collecting data, the program determines which houses can be used as a reference point for the target house based on their similiarities. I have developed a comparibility algorithm which provides this functionality:</p>
+            <img id="presentationLarge" src="../images/comparability%20factor.png" alt="Comparability Factor Java Implementation">
+            <h1>Manipulating the Data</h1>
+            <p>Once a list of comparable houses to a target house is obtained, a real estate investor has many examples of both profitable and unprofitable single-family real estate investements. For every house that was profitably <i>flipped</i>, the difference in sales prices (adjusted for inflation) yields the maximum dollar amount that can be spent to remain profitable.</p>
+            <h1>Reach Out!</h1>
+            <p>If interested about this software please reach out to me by email at maxhorowitz@gmail.com. I look forward to hearing from you.</p>
+        </div>
+        
+        <div class="timestamp"><p><b>Date: </b>May-August, 2020</p>
+            </div>
+
+        <div class="grid-container-socialmedia">
+                    
+                    <div class="gridItemFacebook"><a href="https://www.facebook.com/profile.php?id=100010028467747" class="fa fa-facebook" target="_blank"></a></div>
+                    <div class="gridItemInstagram"><a href="https://www.instagram.com/maxhorowitz/" class="fa fa-instagram" target="_blank"></a></div>
+                    <div class="gridItemLinkedin"><a href="https://www.linkedin.com/in/max-horowitz-68891a17b/" class="fa fa-linkedin" target="_blank"></a></div>
+                
+                
+        </div>
+            
+        
+    
+    </body>
+
+
+</html>
